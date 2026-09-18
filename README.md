@@ -28,6 +28,8 @@ A minimalist music player card inspired by a Pinterest pin. The goal of this pro
 ### 🖿  Project structure
 
 ```
+Music-Player-Card/
+├── Assets/
 ├── index.html
 ├── style.css
 └── README.md

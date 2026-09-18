@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Music Player Card</title>
+  </head>
+  <body>
+    <article class="player-card">
+      <div class="album-cover">
+        <img src="Assets/Album/album-cover.jpg" alt="Kate Bush album cover" />
+      </div>
+
+      <div class="player-content">
+        <header class="player-header">
+          <div class="track-info">
+            <h2 class="track-title">Wuthering Heights</h2>
+            <p class="track-artist">Kate Bush</p>
+          </div>
+        </header>
+
+        <div class="progress-bar">
+          <div class="progress-track">
+            <div class="progress-fill"></div>
+          </div>
+          <span class="time">00:00</span>
+        </div>
+
+        <div class="player-controls">
+          <button class="control-btn" aria-label="repeat">
+            <img src="Assets/Icons/repeat-icon.svg" alt="" />
+          </button>
+          <button class="control-btn" aria-label="back">
+            <img src="Assets/Icons/rewind-icon.svg" />
+          </button>
+          <button class="control-btn play-btn" aria-label="play">
+            <img src="Assets/Icons/play-icon.svg" alt="" />
+          </button>
+          <button class="control-btn" aria-label="advance">
+            <img src="Assets/Icons/rewind-icon.svg" class="flip" alt="" />
+          </button>
+          <button class="control-btn" aria-label="favorite">
+            <img src="Assets/Icons/heart-icon.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

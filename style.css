@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(221, 218, 218);
+  font-family:
+    "Inter",
+    -apple-system,
+    "Helvetica Neue",
+    sans-serif;
+  margin-top: 14rem;
+  margin-left: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-content {
+  padding: 1.5rem;
+}
+
+.player-card {
+  display: flex;
+  align-items: center;
+  width: 36rem;
+  height: 12rem;
+  background-color: rgb(235, 232, 232);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.album-cover img {
+  display: block;
+  width: 12rem;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.track-info {
+  padding-bottom: 38px;
+}
+
+.track-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.track-artist {
+  margin: 0;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #555555e5;
+}
+
+.progress-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.progress-track {
+  flex: 1;
+  height: 4px;
+  background-color: rgb(210, 206, 206);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 3px;
+  background-color: #1a1a1a;
+  border-radius: 2px;
+}
+
+.time {
+  font-size: 14px;
+  color: #525252;
+}
+
+.player-controls {
+  display: flex;
+  align-items: center;
+  gap: 3.48rem;
+}
+
+.control-btn {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.control-btn:hover {
+  opacity: 0.7;
+}
+
+.control-btn img {
+  width: 1rem;
+  height: 1.2rem;
+}

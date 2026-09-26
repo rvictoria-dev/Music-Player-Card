@@ -1,4 +1,4 @@
-# ♬♪  Music Player Card
+# Music Player Card
 
 ### ₊⊹  About
 

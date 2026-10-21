@@ -29,7 +29,7 @@ A minimalist music player card inspired by a Pinterest pin. The goal of this pro
 
 ```
 Music-Player-Card/
-├── Assets/
+├── assets/
 ├── index.html
 ├── style.css
 └── README.md
